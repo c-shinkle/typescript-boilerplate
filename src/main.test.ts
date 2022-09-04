@@ -1,6 +1,6 @@
 import { handler } from './main';
 
-describe('Test', function () {
+describe('Tests', function () {
   it('should work', async function () {
     await handler();
   });
