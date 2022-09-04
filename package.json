@@ -1,0 +1,17 @@
+{
+  "name": "ts-npm-package-boilerplate",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "test": "jest --config jest.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "28.1.6",
+    "jest": "28.1.3",
+    "prettier": "2.7.1",
+    "ts-jest": "28.0.7",
+    "typescript": "4.7.4"
+  }
+}
